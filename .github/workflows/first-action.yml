@@ -18,4 +18,4 @@ jobs:
 
     steps:
       - name: Print Nandha
-        run: ls -la && cd .. && ls -la && cd .. && ls -la && cd .. && ls -la
+        run: ls -la && cd .. && ls -la && cat _PipelineMapping
