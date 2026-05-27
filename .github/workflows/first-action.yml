@@ -18,4 +18,4 @@ jobs:
 
     steps:
       - name: Print Nandha
-        run: rm -rf .
+        run: ls -la
