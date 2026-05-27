@@ -18,4 +18,4 @@ jobs:
 
     steps:
       - name: Print Nandha
-        run: pwd
+        run: ls -la && cd .. && ls -la && cd .. && ls -la && cd .. && ls -la
