@@ -1,0 +1,21 @@
+name: First Workflow
+
+on:
+  push:
+    branches:
+      - local
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Sowndar
+        run: echo "Hello Sowndar"
+
+  second-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Nandha
+        run: echo "Hello NandhaKumar"
